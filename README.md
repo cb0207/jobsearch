@@ -29,6 +29,7 @@ Commandline 使用方法:
    * 数据库对应相关设置：
 
       MYSQL_URI = 'localhost'
+      
       MYSQL_PORT = 3306
 
       MYSQL_DATABASE = 'scrapy'
