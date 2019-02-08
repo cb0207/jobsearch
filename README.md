@@ -7,7 +7,7 @@ scrapy框架多爬虫模式，爬取51job，拉钩，直聘，猎聘，大街，
 
 特点：该项目会应用IP代理，redis+bloomfilter 进行去重爬取
 
-# Commandline 使用方法:
+# 控制台使用方法:
 需要先启动ip代理池，redis数据库
 
 1. scrapy crawl + 爬虫名 + 职位搜索： scrapy crawl job51 jobname='爬虫'
