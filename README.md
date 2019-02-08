@@ -24,6 +24,7 @@ scrapy框架多爬虫模式，爬取51job，拉钩，直聘，猎聘，大街，
     
     * IP代理设置：
       'Amazing_SpiderMan.myscrapy.dowmloadmiddlewares.IPProxy.IPProxyMiddleware': 125
+      
     * UserAgent代理设置：
       'Amazing_SpiderMan.myscrapy.dowmloadmiddlewares.UserAgent.UserAgent': 1
 
@@ -31,8 +32,8 @@ scrapy框架多爬虫模式，爬取51job，拉钩，直聘，猎聘，大街，
 
    * mysql数据库，该插件使用ORM方式将数据入库：
       'Amazing_SpiderMan.myscrapy.pipelines.MysqlPipeline.MysqlPipeline': 300
+      
    * 数据库对应相关设置：
-
       MYSQL_URI = 'localhost'
       MYSQL_PORT = 3306
       MYSQL_DATABASE = 'scrapy'
