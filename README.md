@@ -34,34 +34,21 @@ scrapy框架多爬虫模式，爬取51job，拉钩，直聘，猎聘，大街，
    * 数据库对应相关设置：
 
       MYSQL_URI = 'localhost'
-      
       MYSQL_PORT = 3306
-
       MYSQL_DATABASE = 'scrapy'
-
       MYSQL_TABLE = 'job'
-
       MYSQL_USER = 'root'
-
       MYSQL_PASS = '10ily1314'
       
 3. Redis + bloomfilter: 去重列队
 
    SCHEDULER = 'Amazing_SpiderMan.myscrapy.scrapy_redis.scheduler.Scheduler'
-   
    SCHEDULER_QUEUE_CLASS = 'Amazing_SpiderMan.myscrapy.scrapy_redis.queue.SpiderPriorityQueue'
-
    SCHEDULER_PERSIST = True
-   
    REDIS_HOST = '127.0.0.1'
-   
    REDIS_PORT = 6379
-
    FILTER_URL = None
-   
    FILTER_HOST = 'localhost'
-   
    FILTER_PORT = 6379
-   
    FILTER_DB = 0
 ```
