@@ -19,7 +19,7 @@ scrapy框架多爬虫模式，爬取51job，拉钩，直聘，猎聘，大街，
 
 # 配置settings：
 设置中会出现'Amazing_SpiderMan.'的功能模块，属于一个我自己维护的一个爬虫帮助工具，会在另外的项目中进行详细介绍以及更新。
-
+```
 1. DOWNLOADER_MIDDLEWARES：下载中间件
     
     * IP代理设置：
@@ -64,3 +64,4 @@ scrapy框架多爬虫模式，爬取51job，拉钩，直聘，猎聘，大街，
    FILTER_PORT = 6379
    
    FILTER_DB = 0
+```
